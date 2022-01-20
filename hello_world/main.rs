@@ -1,3 +1,5 @@
+// Similar to C++, main is always the first code to run in a Rust program.
 fn main() {
-  println!("Hello, world!");
+    // (!) will call a macro, while direct function call will not include (!)
+    println!("Hello, world!");
 }
